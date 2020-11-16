@@ -26,12 +26,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainscene.cpp \
-    map.cpp
+    map.cpp \
+    heroplane.cpp \
+    bullet.cpp \
+    enemyplane.cpp
 
 HEADERS += \
         mainscene.h \
     config.h \
-    map.h
+    map.h \
+    heroplane.h \
+    bullet.h \
+    enemyplane.h
 
 #RESOURCES += \
 #   res.qrc
