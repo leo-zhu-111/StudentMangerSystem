@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -29,7 +29,8 @@ SOURCES += \
     map.cpp \
     heroplane.cpp \
     bullet.cpp \
-    enemyplane.cpp
+    enemyplane.cpp \
+    bomb.cpp
 
 HEADERS += \
         mainscene.h \
@@ -37,7 +38,8 @@ HEADERS += \
     map.h \
     heroplane.h \
     bullet.h \
-    enemyplane.h
+    enemyplane.h \
+    bomb.h
 
 #RESOURCES += \
 #   res.qrc

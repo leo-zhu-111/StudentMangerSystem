@@ -11,6 +11,7 @@
 #include <QMouseEvent>
 #include "bullet.h"
 #include "enemyplane.h"
+#include "bomb.h"
 class MainScene : public QWidget
 {
     Q_OBJECT
@@ -51,6 +52,12 @@ public:
 
     //敌机出场间隔记录
     int m_recorder;
+
+    //碰撞检测
+    void collisionDetection();
+
+    //爆炸数组
+    Bomb m_bombs[BOMB_NUM];
 
 
 };

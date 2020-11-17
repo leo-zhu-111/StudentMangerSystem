@@ -31,4 +31,14 @@
 #define ENEMY_NUM 20                        //敌机总数量
 #define ENEMY_INTERVAL 30                   //敌机出现时间间隔
 
+/*********************     爆炸配置参数       **********************/
+#define BOMB_PATH ":/res/bomb-%1.png"//爆炸资源图片
+#define BOMB_NUM 28                 //爆炸数量
+#define BOMB_MAX 7                  //爆炸图片最大索引
+#define BOMB_INTERVAL 20            //爆炸切图时间
+
+/*********************     配置参数       **********************/
+#define SOUND_BACKGROUND ":/res/bg.wav"
+#define SOUND_BOMB ":/res/bomb.wav"
+
 #endif // CONFIG_H
