@@ -9,9 +9,9 @@
 #include"sortwidget.h"
 #include<QStackedLayout>
 
-namespace Ui {
-class MainWidget;
-}
+//namespace Ui {
+//class MainWidget;
+//}
 
 class MainWidget : public QWidget
 {
@@ -23,6 +23,9 @@ public:
 
     //初始化mainWidget
     void init();
+
+    //设置接收各个子widget的dispaly信号
+    void setConnect();
 
 public:
     //成员变量
@@ -36,7 +39,7 @@ public:
 
 
 private:
-    Ui::MainWidget *ui;
+//    Ui::MainWidget *ui;
 };
 
 #endif // MAINWIDGET_H

@@ -12,3 +12,8 @@ ModifyWidget::~ModifyWidget()
 {
     delete ui;
 }
+
+void ModifyWidget::on_btn_returnToMain_clicked()
+{
+    display(0);
+}

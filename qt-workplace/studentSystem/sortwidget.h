@@ -17,6 +17,12 @@ public:
 
 private:
     Ui::SortWidget *ui;
+private slots:
+    void on_btn_returnToMain_clicked();
+
+signals:
+    void display(int index);
+
 };
 
 #endif // SORTWIDGET_H

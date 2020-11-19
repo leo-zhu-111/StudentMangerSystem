@@ -14,7 +14,8 @@ HEADERS += \
     modifywidget.h \
     selectwidget.h \
     sortwidget.h \
-    mainwidget.h
+    mainwidget.h \
+    studentinfo.h
 
 SOURCES += \
     addstudentwidget.cpp \
@@ -23,4 +24,5 @@ SOURCES += \
     selectwidget.cpp \
     sortwidget.cpp \
     main.cpp \
-    mainwidget.cpp
+    mainwidget.cpp \
+    studentinfo.cpp

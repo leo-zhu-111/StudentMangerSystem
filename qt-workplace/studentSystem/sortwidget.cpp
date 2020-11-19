@@ -12,3 +12,7 @@ SortWidget::~SortWidget()
 {
     delete ui;
 }
+void SortWidget::on_btn_returnToMain_clicked()
+{
+    display(0);
+}

@@ -1,12 +1,15 @@
 
 
 #include "mainwidget.h"
-
-int main()
+#include <QApplication>
+int main(int argc,char** argv)
 {
-    MainWidget mainWidget = new MainWidget;
+    //应用程序对象
+    QApplication a(argc,argv);
+
+    MainWidget mainWidget;
 
     mainWidget.show();
 
-    return a.exe();
+    return a.exec();
 }

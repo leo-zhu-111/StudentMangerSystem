@@ -17,6 +17,13 @@ public:
 
 private:
     Ui::ModifyWidget *ui;
+
+private slots:
+    void on_btn_returnToMain_clicked();
+
+signals:
+    void display(int index);
+
 };
 
 #endif // MODIFYWIDGET_H

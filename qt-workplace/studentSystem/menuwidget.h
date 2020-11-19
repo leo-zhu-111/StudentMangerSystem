@@ -2,7 +2,7 @@
 #define MENUWIDGET_H
 
 #include <QWidget>
-
+#include <QApplication>
 namespace Ui {
 class MenuWidget;
 }
@@ -17,6 +17,16 @@ public:
 
 private:
     Ui::MenuWidget *ui;
+
+private slots:
+    void on_btn_add_clicked();
+    void on_btn_select_clicked();
+    void on_btn_modify_clicked();
+    void on_btn_sort_clicked();
+    void on_btn_exit_clicked();
+
+signals:
+    void display(int index);
 };
 
 #endif // MENUWIDGET_H
