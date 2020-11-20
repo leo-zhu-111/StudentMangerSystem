@@ -15,6 +15,10 @@ StudentInfo::StudentInfo(QString name,int id,int math,int english,int languagec)
 }
 
 //私有成员变量对外接口
+QString StudentInfo::getName(){
+    return m_Name;
+}
+
 int StudentInfo::getId(){
     return m_id;
 }

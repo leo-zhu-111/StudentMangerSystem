@@ -10,6 +10,7 @@ public:
     StudentInfo(QString name,int id,int math,int english,int languagec);
 
     //私有成员变量对外接口
+    QString getName();
     int getId();
     int getMath();
     int getEnglish();
@@ -24,6 +25,8 @@ public:
 
     //计算平均成绩
     double calculateAverage();
+
+
 
 private:
     //成员变量 姓名，id，各科成绩，平均成绩

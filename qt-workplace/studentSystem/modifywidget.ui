@@ -302,7 +302,7 @@
        </spacer>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit_number">
+       <widget class="QLineEdit" name="lineEdit_id">
         <property name="minimumSize">
          <size>
           <width>150</width>
@@ -388,6 +388,13 @@
          </size>
         </property>
        </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_Search">
+        <property name="text">
+         <string>查找</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>

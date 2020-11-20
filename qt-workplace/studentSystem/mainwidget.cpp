@@ -67,6 +67,17 @@ void MainWidget::setConnect()
         stackLayout->setCurrentIndex(index);
     });
 
+    //一旦进入学生修改界面，首先自动从文件中读取信息
+    connect(this->stackLayout,&QStackedLayout::currentChanged,[=](int index){
+        switch(index)
+        {
+        case 3:
+            this->modifyWidget->init();
+            break;
+        default:
+            break;
+        }
+    });
 
 }
 
